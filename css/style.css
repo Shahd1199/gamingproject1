@@ -1,0 +1,825 @@
+*{ /* remove space*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+.home{
+    height: 100vh;
+    background: url(../images/Chill\ Mario\ 2023\ ver_\,\ Pixel\ Jeff.gif) no-repeat fixed center;
+    background-size: cover;
+    position: relative;
+}
+.home-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(44, 44, 78, 0.7);
+}
+.home-content{
+ position: absolute;
+ width: 60%;
+ top: 45%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.home-title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.home-title , .p-home{
+    color: white;
+    font-family:"Sour Gummy", sans-serif;
+}
+.p-home{
+    margin:10px 30px;
+    width: 70%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+.home-btn{
+    width: 120px;
+    height: 50px;
+    margin-left: 300px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 19px;
+    cursor: pointer;/* mouse*/
+    color: rgb(42, 42, 191);
+}
+.btn2{
+    margin: auto;
+    margin-left: 5px;
+}
+.home-btn:hover{
+    opacity: 0.4;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(29, 105, 168, 0.5);
+    position: fixed;
+    z-index: 55;
+}
+.icon-header{
+    font-size: 30px; 
+    color: white;
+    margin: 10px 25px;
+}
+.search-bar{
+    display: inline;
+    top: -7px;
+    position: relative;
+}
+.search-input{
+    width: 230px;
+    height: 30px;
+    border-radius: 150px;
+    border: 1px solid white;
+}
+.search-icon{
+    position: absolute;
+    margin: 17px -220px;    
+}
+.list_header{
+margin-top: -35px;
+margin-left: 57%;
+}
+.list_header li{
+    display: inline;
+    color: white;
+    margin-left: 15px;
+    font-family:"Sour Gummy", sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+.list_header a{
+    text-decoration: none;
+}
+.list_header li::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -7px;
+    left: 0;
+    background-color: rgb(0, 47, 255);
+    transition: 0.5s;
+    opacity: 1;
+}
+.list_header li:hover::after{
+    width: 100%;
+    height: 1px;
+}
+/* ----------------------------------------------------------2------------------------------------------------------------------------- */
+.start{
+    height: 100vh;
+}
+.start-title{
+    text-align: center;
+    font-family:"Sour Gummy", sans-serif;
+    margin-top: 70px;
+    font-size: 37px;
+}
+.line-start{
+ background-color: rgba(29, 105, 168);
+ width: 100px;    
+ height:3px;
+ margin: auto;
+ margin-top: 10px;
+}
+.start-box{
+    float: left;
+    margin: 100px 50px;
+    border: 1px solid  rgb(67, 134, 156);
+    width: 350px;
+    height: 220px;
+    border-radius:10px;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    line-height: 55px;
+    position: relative;
+}
+.s-box1{
+    margin-left: 140px;
+}
+.start-icon{
+ font-size: 30px;
+ margin-top: 15px;
+ color: rgb(67, 134, 156);
+}
+.start-p{
+    opacity: 0.7;
+    font-weight: bold;
+}
+.start-show{
+    text-decoration: none;
+    color: rgb(42, 103, 122) ;
+    font-weight: bold;
+}
+.h2-start , .start-show , .start-p , .start-icon{
+    position: relative;
+    z-index: 20;
+}
+.start-box::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(67, 134, 156);
+    transition: 0.5s;
+    opacity: 0.3;
+}
+.start-box:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    opacity: 0.3;
+}
+.start-box:hover .start-icon{
+    color: rgb(34, 34, 252);
+}
+.start-box:hover .start-p{
+   opacity: 1;
+}
+.start-box:hover .h2-start{
+    color: white;
+}
+.start-box:hover .start-show{
+    color: rgb(34, 34, 252);
+}
+
+/*---------------------------------------------------------------3---------------------------------------------------------------------*/
+.works{
+  height: 100vh;
+  background-color: rgb(211, 228, 252);
+  margin-top: -150px;
+}
+.work-title{
+   padding-top: 50px;
+}
+.work-item{
+    width: 320px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: relative;
+}
+.w-t1 , .w-t4{
+    margin-left: 220px;
+}
+.w-t1 , .w-t2 , .w-t3{
+    margin-top: 50px;
+}
+.w-t1{
+    background-image: url(../images/Mortal\ Kombat\ -\ Kitana.jpg);
+}   
+.w-t2{
+    background-image: url(../images/Apple\ Names\ 2017\'s\ Most\ Popular\ Apps\,\ Games\,\ Movies\,\ and\ More.jpg);
+}
+.w-t3{
+    background-image: url(../images/download\ \(2\).jpg);
+}
+.w-t4{
+    background-image: url(../images/VALORANT\ Ep_3\ Key\ art\ \,\ Su\ Ke.jpg);
+}
+.w-t5{
+    background-image: url(../images/download\ \(1\).jpg);
+}
+.w-t6{
+    background-image: url(../images/Bienvenue\ dans\ RiotX\ Arcane.jpg);
+}
+.w-t1, .w-t2, .w-t3 , .w-t4 , .w-t5 , .w-t6{
+    background-position: center;
+    background-size: cover;
+}
+.overlay-work{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    visibility: hidden;
+    font-family:"Sour Gummy", sans-serif;
+    font-weight:bold;
+}
+.h2-item{
+color: rgb(196, 196, 196);
+font-size: 27px;
+margin-top: 30px;
+}
+.p-item{
+color: white;
+margin-top: 25px;
+}
+.work-icons{
+    background-color: white;
+    color: grey;
+   font-size: 19px;
+   padding: 5px;
+   border-radius: 5px;
+   width: 40px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.work-item:hover .overlay-work{
+    visibility: visible;
+}
+/*---------------------------------------------------------------------4----------------------------------------------------------------*/
+.offer{
+    height: 100vh;
+}
+.offer-box{
+    border: 1px solid rgb(61, 86, 223);
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 10px;
+    position: relative;
+}
+.offer-icons{
+    font-size: 35px;
+    color: rgb(41, 70, 239);
+    margin: 20px 5px;
+    float: left;
+}
+.offer-titles{
+    font-size: 22px;
+    margin-top: 25px;
+    font-family:"Sour Gummy", sans-serif;
+}
+.p-offer{
+    margin: 20px 50px;
+    font-weight: bold;
+    font-family:"Sour Gummy", sans-serif;
+    opacity: 0.4;
+}
+.offer-box::after{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 75, 247);
+    transition: 0.7s;
+    opacity: 0.2;
+}
+.offer-box:hover::after{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+opacity: 0.2;
+}
+.offer-box:hover .offer-icons{
+ color:rgb(12, 12, 184);
+}
+.offer-box:hover .offer-titles{
+    color:rgb(12, 12, 184) ;
+}
+.offer-box:hover .p-offer{
+    opacity: 1;
+}
+/*------------------------------------------------------------------5-------------------------------------------------------------------*/
+.choose{
+    height: 100vh;
+}
+.choose-style{
+    margin-left: 150px;
+}
+.choose-title{
+    font-size: 35px;
+    font-family:"Sour Gummy", sans-serif;
+    margin-top: 50px;
+}
+.choose-line{
+    background-color: rgba(29, 105, 168);
+    width: 70px;    
+    height:4px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.choose-icons{
+    float: left;
+   color: rgba(29, 105, 168)
+}
+.pars-choose{
+font-weight: bolder;
+font-family: "Sour Gummy", sans-serif;
+font-size: 15px;
+opacity: 0.5;
+margin-bottom: 35px;
+}
+.p-choose{
+margin-bottom: 50px;
+opacity: 0.3;
+}
+.choose-img{
+    float: right;
+   width: 350px;
+   height: 450px;
+   margin: -440px 200px;
+}
+.choose-dots li{
+   width: 15px;
+   height: 15px;
+   border-radius: 60px;
+   background-color:rgba(85, 99, 110, 0.6) ;
+   float: left;
+   margin: 20px 7px;
+}
+.choose-dots .dot1{
+    margin-left: 1120px;
+    background-color: rgb(56, 56, 105);
+}
+.choose-dots li:hover{
+    background-color: rgb(56, 56, 105);
+}
+/*------------------------------------------------------------------6-------------------------------------------------------------------*/
+.half-img1{
+    height: 55vh;
+    width: 100%;
+   background-image: url(../images/wallpaperflare.com_wallpaper\ \(23\).jpg);
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   position: relative;
+}
+.half-img1-overlay{
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(29, 31, 33, 0.6);
+}
+.half-img1-content{
+    position: absolute;
+    margin-top: -250px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bold;
+    float: left;
+}
+.img-icons i{
+    margin-left:275px;
+    font-size: 40px;
+    color: rgb(138, 138, 248)
+}
+.img-icons .img-i2{
+    margin-left: 250px;
+}
+.half-img1-numbers p{
+float: left;
+color: white;
+font-size: 18px;
+margin-left: 275px;
+margin-top: 10px;
+}
+.half-img1-numbers .img-num3{
+    margin-left: 290px;
+}
+.half-img1-numbers .img-num4{
+    margin-left: 290px;
+}
+.half-img1-text p{
+    color: white;
+    margin-left: 250px;
+    float: left;
+    margin-top: -15px;
+}
+.half-img1-text .img-text2{
+    margin-left: 200px;
+}
+.half-img1-text .img-text3{
+    margin-left: 230px;
+}
+.half-img1-text .img-text4{
+    margin-left: 200px;
+}
+/*------------------------------------------------------------------7-------------------------------------------------------------------*/
+.pricing-table{
+    height: 100vh;
+    overflow: auto;
+}
+.pricing-boxs{
+    width: 340px;
+    height: 390px;
+    border: 1px solid rgb(138, 138, 248);
+    float: left;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    position: relative;
+}
+.price-box1{
+    margin-left: 200px;
+}
+.price-plan{
+    margin-top: 30px;
+    font-size:14px;
+    margin-bottom: 20px;
+}
+.price{
+       width: 100px;
+       height: 100px;
+       border-radius: 100px;
+       margin: auto;
+       border: 2px solid  rgb(138, 138, 248);
+       font-size: 25px;
+       font-weight: bold;
+       margin-bottom: 30px;
+}
+.price-circle{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.price-text2{
+    font-size: 17px;
+}
+.price-explain{
+    line-height: 30px;
+    font-weight: bold;
+}
+.price-buttons{
+    background-color: rgb(232, 242, 255) ;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid  rgb(99, 99, 246);
+    margin-top: 30px;   
+    position: relative;
+}
+.price-buttons , .price-explain ,.price-circle ,.price-text2 ,.price-plan {
+    position: relative;
+    z-index: 20;
+}
+.pricing-boxs::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 75, 247);
+    transition: 0.5s;
+    opacity: 0.3;
+}
+.pricing-boxs:hover::after{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+opacity: 0.3;
+}
+.pricing-boxs:hover .price-plan{
+ color: rgb(0, 0, 161);
+}
+.pricing-boxs:hover .price{
+ border: 2px solid rgb(0, 0, 161);
+background-color: white;
+}
+.pricing-boxs:hover .price-buttons{
+ border: 2px solid rgb(0, 0, 161);
+background-color: white;
+}
+/*------------------------------------------------------------------7-------------------------------------------------------------------*/
+.half-img2{
+    height: 55vh;
+    width: 100%;
+   background-image: url(../images/wallpaperflare.com_wallpaper\ \(11\).jpg);
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   position: relative;
+   margin-top: 60px;
+}
+.half-img2-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(36, 45, 53, 0.6);
+}
+.employee-img{
+    border-radius: 100px;   
+    margin-top: 110px;
+}
+.left-girl{
+   float: left;
+}
+.employee-name{
+    font-size: 30px;
+    color: white;
+    margin-top:-70px;
+}
+.employee-position{
+    color: rgb(100, 100, 253);
+    font-size: 21px;
+}
+.employee-explain{
+    font-weight: bold;
+    font-size: 17px;
+}
+.employee{
+    margin-left: 270px;
+}
+.em-name1{
+    margin-left: 95px;
+}
+.em-pos1{
+    margin-left: 90px;
+}
+.em-ex1{
+    margin-top: 15px;
+}
+.em-img2{
+    margin-left: 350px;
+}
+.em-name2{
+    margin-left: 740px;
+}
+.em-pos2{
+    margin-left: 740px;
+}
+.em-pos1, .em-pos2{
+    margin-top: 5px;
+}
+.em-ex2{
+    margin-left: 650px;
+    margin-top: 20px ;
+}
+/*-----------------------------------------------------------------8--------------------------------------------------------------------*/
+.start-title{
+    margin-top: 120px;
+}
+.top-players{
+    height: 100vh;
+    width: 100%;
+    font-family: "Sour Gummy", sans-serif;
+}
+.players-container{
+    width: 80%;
+    margin: auto;
+}
+.players-item {
+    float: left;
+    background-color: rgba(158, 197, 210,0.5);
+    width: 30%;
+    padding: 20px 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.player2{
+    margin: 60px 5%;
+}
+.players-img{
+    position: relative;
+}
+.players-overlay{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    opacity: 0;
+}
+.players-img img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.players-overlay a {
+    display: block;
+    width: 35px;
+    height: 40px;
+    color:white;
+    font-size: 20px ;
+    margin-left: auto ;
+ background-color: rgba(29, 105, 168);
+
+}
+.players-overlay a i{
+    line-height:40px;
+}
+.players-info{
+    line-height: 40px;
+}
+.players-position{
+    color: rgb(94, 93, 93);
+    font-weight: bold;
+}
+.players-item:hover .players-overlay{
+    opacity: 1;
+}
+.players-item:hover .players-name{
+    color: white;
+}
+.players-item:hover .players-position{
+color: rgba(29, 105, 168);
+}
+.players-item::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(75, 75, 247,0.5);
+    transition: 0.5s;
+}
+.players-item:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+/*------------------------------------------------------------------9-------------------------------------------------------------------*/
+.news{
+    height: 100vh;
+    width: 100%;
+    font-family: "Sour Gummy", sans-serif;
+    margin-top: -150px;
+}
+.news-title{
+
+}
+.news-container{
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+.news-item{
+    border: 1px solid rgba(29, 105, 168);
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 75%;
+    position: relative;
+}
+.news2{
+    margin: 0px 5%;
+}
+.news-img img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 20;
+}
+.news-info i{
+    color: rgba(29, 105, 168);
+}
+.news-info span{
+    margin-right: 15px;
+    font-size: 15px;
+}
+.news-info h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 20;
+}
+.news-info p{
+    opacity: 0.6;
+    margin-bottom: 20px;
+    position: relative; 
+    z-index: 20;  
+}
+.news-read{
+    text-decoration: none;
+    color: rgb(0, 0, 160);
+    position: relative;
+    z-index: 20;
+}
+.news-item:hover h3{
+    color: white;
+}
+.news-item:hover p{
+    opacity: 1;
+    color: blue;
+}
+.news-item:hover span{
+    color: blue;
+}
+.news-item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(75, 75, 247,0.5);
+    border-radius: 10px;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.news-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+} 
+/*------------------------------------------------------------------10-------------------------------------------------------------------*/
+.footer{
+height: 50vh;
+background-color: rgba(29, 105, 168, 0.2);
+margin-top: 50px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer-icons i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: -5px;
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+    z-index: 20;
+}
+.footer-icons .circle{
+    width: 55px;
+    border-radius: 55px;
+    height: 55px;
+    float: left;
+    background-color: rgba(29, 105, 168, 0.5);
+    margin-top: 20px;
+    position: relative;
+}
+.c1{
+    margin-left:590px;
+}
+.c2,.c3,.c4,.c5,.c6{
+    margin-left: 3px;
+}
+.copy-right{
+    font-family: "Sour Gummy", sans-serif;
+    text-transform: capitalize;
+    margin-top: 85px;
+    font-size: 14px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.circle:hover{
+    background-color: rgb(65, 65, 251);
+  transition: 0.8s;
+ }
+
+
+
+
+
+
+
